@@ -1,7 +1,9 @@
 #linux-lab
 
 > ผู้พัฒนาโครงการ Sumet saenpang
+
 > รหัสนักศึกษา 59110440420
+
 #จุดประสงค์
 
 > ฝึกใช้ python ทำ CLI โปรเเกรม ตามแบบ githubavatar
