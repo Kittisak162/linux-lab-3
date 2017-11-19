@@ -1,18 +1,18 @@
 """
-get image on facebook
+Get image on facebook
 """
 from setuptools import find_packages, setup
 
 dependencies = ['click']
 
 setup(
-    name='getp',
+    name='sumet',
     version='0.1.0',
-    url='https://github.com/Asumet120840/getp',
+    url='https://github.com/Asumet120840/sumet',
     license='BSD',
-    author='Asumet120840',
+    author='Sumet Saenpang',
     author_email='sumet.sa.59@ubu.ac.th',
-    description='get image on facebook',
+    description='Get image on facebook',
     long_description=__doc__,
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
@@ -21,7 +21,7 @@ setup(
     install_requires=dependencies,
     entry_points={
         'console_scripts': [
-            'getp = getp.cli:main',
+            'sumet = sumet.cli:main',
         ],
     },
     classifiers=[

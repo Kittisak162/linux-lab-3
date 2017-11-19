@@ -1,6 +1,6 @@
-# get image on facebook
+# Get image on facebook
 
-get image on facebook
+Get image on facebook
 
 
 # Installation
@@ -17,5 +17,5 @@ Simply run:
 
 To use it:
 
-    $ getp --help
+    $ sumet --help
 

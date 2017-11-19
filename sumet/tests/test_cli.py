@@ -1,6 +1,6 @@
 import pytest
 from click.testing import CliRunner
-from getp import cli
+from sumet import cli
 
 
 @pytest.fixture
@@ -23,7 +23,7 @@ def test_cli_with_option(runner):
 
 
 def test_cli_with_arg(runner):
-    result = runner.invoke(cli.main, ['Asumet120840'])
+    result = runner.invoke(cli.main, ['Sumet'])
     assert result.exit_code == 0
     assert not result.exception
-    assert result.output.strip() == 'Hello, Asumet120840.'
+    assert result.output.strip() == 'Hello, Sumet.'
