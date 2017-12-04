@@ -8,23 +8,29 @@ Get image on facebook
 
 # วิธีรันโปรแกรม
 
-## 1.เริ่มใช้งานโปรแกรม ให้ clone project
+## 1.ติดตั้งโปรแกรมจำเป็น
+```sh
+(sudo) pip install lxml
+(sudo) pip install BeautifulSoup4
+```
+## 2.เริ่มใช้งานโปรแกรม ให้ clone project
 ```sh
 cd sumet
 ```
-## 2. ติดตั้ง package ที่จำเป็น
+## 3. ติดตั้ง package ที่จำเป็น
 ```sh
 pip install --user click requests Pillow
 ```
-## 3. ติดตั้ง
+## 4. ติดตั้ง
 ```sh
 pip install --user .
 ```
-## 4. รัน ทดสอบโปรแกรม
+## 5. รัน ทดสอบโปรแกรม
 ```sh
+sumet Din.sumet
+sumet pt.kittisak
 sumet 100009209517785
 sumet 100009851460255
 sumet 100007536139227
 ```
 # END
-
